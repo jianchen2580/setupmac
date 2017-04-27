@@ -4,5 +4,6 @@
 - name: configuration
   include: configuration.yml
 
-- name: dotfiles
-  include: dotfiles.yml
+# TODO: refine dotfiles
+# - name: dotfiles
+#   include: dotfiles.yml
