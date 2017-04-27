@@ -26,7 +26,7 @@ echo "Setting up your mac using jianchen2580/setupmac"
 echo "==========================================="
 
 sudo easy_install pip
-sudo easy_install ansible
+sudo pip install ansible
 
 installdir="/tmp/setupmac-$RANDOM"
 mkdir $installdir
@@ -47,4 +47,4 @@ rm -Rfv /tmp/$installdir
 
 echo "and we are done! Enjoy!"
 
-exit 
+exit

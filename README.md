@@ -1,13 +1,8 @@
-# setupmac
-Using Ansible to setup my Mac
-To setup run the following command:
+### Requirements:
 
-```
-curl -s https://raw.githubusercontent.com/jianchen2580/setupmac/master/start.sh | /bin/bash
-```
-
-The start.sh script installs pip and then ansible with pip. Then git clone this repository and execute the ansible playbook which does all the heavy lifting of setting your mac.
-
+Generic:
+* macOS Sierra
+* XCode
 
 ### Setupmac
 
